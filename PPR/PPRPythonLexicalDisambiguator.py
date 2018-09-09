@@ -6,7 +6,7 @@ from sklearn.preprocessing import normalize
 
 # Creates a sparse matrix representation of a graph
 def makeWordnetGraphAndLoadSynsetIndexDict():
-    graphDataFile = np.load("/home/dridi/Documents/3rdYearProject/PPR/"
+    graphDataFile = np.load("../PPR/"
                             "initialGraphData.npz")
     synsetIndexes = graphDataFile['synsetIndexes'].item()
     length = len(synsetIndexes.keys())
