@@ -13,8 +13,3 @@ This project requires python3.x in order to run, here are some required modules:
 * numpy
 * scipy
 * sklearn
-
-
-
-## Usage
-##### To Be Updated Soon
